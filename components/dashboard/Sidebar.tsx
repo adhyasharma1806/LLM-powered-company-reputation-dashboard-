@@ -12,14 +12,16 @@ import {
 } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
+type Section = 'overview' | 'sentiment' | 'trends' | 'topics' | 'data';
+
 interface SidebarProps {
   collapsed: boolean;
   onToggle: () => void;
-  activeItem: string;
-  onSelect: (key: string) => void;
+  activeItem: Section;
+  onSelect: (key: Section) => void;
 }
 
-const menuItems = [
+const menuItems: { key: Section; icon: any; label: string }[] = [
   { key: 'overview', icon: LayoutDashboard, label: 'Dashboard' },
   { key: 'sentiment', icon: MessageSquare, label: 'Sentiment' },
   { key: 'trends', icon: TrendingUp, label: 'Trends' },
