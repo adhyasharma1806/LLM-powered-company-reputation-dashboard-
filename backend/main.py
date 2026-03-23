@@ -13,10 +13,7 @@ from data_service import (
 
 app = FastAPI(title="RepIntel API", version="0.1.0")
 
-origins = [
-  "http://localhost:3000",
-  "http://127.0.0.1:3000",
-]
+origins = ["*"]  # ✅ changed
 
 app.add_middleware(
   CORSMiddleware,
@@ -25,6 +22,10 @@ app.add_middleware(
   allow_methods=["*"],
   allow_headers=["*"],
 )
+
+@app.get("/")  # ✅ added
+def root():
+    return {"status": "API running"}
 
 
 @app.get("/api/mentions")
@@ -55,4 +56,3 @@ async def get_trends() -> List[Dict[str, Any]]:
 async def get_topics() -> List[Dict[str, Any]]:
   mentions = await fetch_raw_mentions(limit=100)
   return await build_topics(mentions)
-
