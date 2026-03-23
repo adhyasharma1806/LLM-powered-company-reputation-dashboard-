@@ -1,7 +1,7 @@
 const API_BASE_URL =
   process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
-
-async function getJson<T>(path: string): Promise<T> {
+console.log("API_BASE_URL:", API_BASE_URL);
+  async function getJson<T>(path: string): Promise<T> {
   const res = await fetch(`${API_BASE_URL}${path}`, {
     next: { revalidate: 30 },
   });
