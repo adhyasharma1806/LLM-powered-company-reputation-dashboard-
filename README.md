@@ -62,5 +62,5 @@ The AI Chart Explainer system is built using a combination of modern technologie
 
 ## 📂 Project Repository
 
-🔗 GitHub Profile: [trisha5426](https://github.com/trisha5426)
+🔗 GitHub :https://github.com/trisha5426
 🔗GitHub: https://github.com/adhyasharma1806
