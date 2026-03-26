@@ -1,97 +1,65 @@
-# 🚀 LLM-Powered Company Reputation Dashboard
+## 🛠️ Tools and Technologies
 
-An AI-driven dashboard that leverages **Large Language Models (LLMs)** to analyze and visualize company reputation from multi-source data in real time.
+The AI Chart Explainer system is built using a combination of modern technologies across multiple layers including data processing, machine learning, backend development, frontend design, and deployment.
 
----
-
-## 📌 Overview
-
-This project is designed to monitor and evaluate public perception of a company by analyzing textual data from multiple sources.
-
-It combines **LLMs, sentiment analysis, and interactive visualization** to provide meaningful insights into brand reputation and trends.
+### 💻 Programming Language
+- **Python**  
+  Used as the core language for data processing, sentiment analysis, embedding generation, and backend logic implementation.
 
 ---
 
-## ✨ Key Features
+### 🤖 LLMs and Natural Language Processing
+- **OpenAI GPT / LLM APIs**  
+  Used to generate human-like explanations for charts and extract meaningful insights from textual data.
 
-### 🧠 LLM-based Sentiment Analysis
-Tracks public perception, sentiment trends, and brand reputation in real time.
-
-### 📊 Interactive Dashboard
-Clean and intuitive UI for exploring insights and visualizations.
-
-### ⚡ Multi-source Data Processing
-Aggregates and analyzes data from multiple inputs.
-
-### 🔐 Domain-Restricted Authentication
-Access limited to authorized organizational emails (e.g., `@apple.com`) for secure usage.
-
-### 🚀 Scalable Backend Architecture
-Designed for efficient data processing and API integration.
+- **Hugging Face Transformers**  
+  Applied for NLP tasks such as sentiment analysis, text classification, and feature extraction from unstructured data.
 
 ---
 
-## 🛠️ Tech Stack
-
-### Frontend
-- Next.js  
-- TypeScript  
-- Tailwind CSS  
-
-### Backend
-- Node.js / Express.js  
-- FastAPI (for ML services)  
-
-### AI / ML
-- Large Language Models (LLMs)  
-- NLP Techniques (Sentiment Analysis)  
+### ⚙️ Backend Development
+- **FastAPI**  
+  Enables high-performance API development for handling data processing, LLM integration, and frontend-backend communication.
 
 ---
 
-## ⚙️ System Workflow
+### 🎨 Frontend (Dashboard)
+- **Next.js**  
+  Used to build an interactive and responsive dashboard for visualizing insights and displaying AI-generated explanations.
 
 ---
 
-## 📊 Capabilities
-
-- Real-time sentiment tracking  
-- Trend analysis of public opinion  
-- Insight generation for decision-making  
-- Secure enterprise-level access control  
+### 📊 Data Visualization
+- **Matplotlib & Seaborn**  
+  Used to create charts such as sentiment analysis graphs, trend visualizations, and keyword frequency plots.
 
 ---
 
-## 🚀 Getting Started
+### 🔍 Semantic Search & Embeddings
+- **Embedding Models**  
+  Convert textual data into vector representations for deeper semantic understanding.
 
-### 1️⃣ Clone the repository
-```bash
-git clone https://github.com/adhyasharma1806/LLM-powered-company-reputation-dashboard-
-cd LLM-powered-company-reputation-dashboard-
+- **Vector Databases**  
+  Enable efficient storage and retrieval of embeddings for semantic search and context-aware insights.
 
+---
 
+### 🚀 Deployment
+- **Vercel / Render**  
+  Used for deploying frontend and backend applications with scalability and real-time accessibility.
 
-2️⃣ Install dependencies
-Frontend
-npm install
-npm run dev
-Backend (FastAPI)
-pip install -r requirements.txt
-uvicorn main:app --reload
+---
 
-🔮 Future Enhancements
-🔹 Integration with live APIs (Twitter, News, Reddit)
-🔹 Advanced LLM models (GPT / BERT-based pipelines)
-🔹 Deployment with Vercel + cloud backend
-🔹 Real-time streaming dashboards
-📌 Use Cases
-Brand reputation monitoring
-Market intelligence
-Customer sentiment analysis
-Enterprise decision support systems
-🔐 Security
+### 🔄 Version Control
+- **Git**  
+  Tracks changes and manages development workflow.
 
-This project implements domain-restricted authentication, ensuring that only users with authorized organizational email domains (e.g., @apple.com) can access the platform.
+- **GitHub**  
+  Hosts the project repository and supports collaboration and version management.
 
-📧 Contact
+---
 
-GitHub: https://github.com/adhyasharma1806
+## 📂 Project Repository
+
+🔗 GitHub Profile: [trisha5426](https://github.com/trisha5426)
+🔗GitHub: https://github.com/adhyasharma1806
