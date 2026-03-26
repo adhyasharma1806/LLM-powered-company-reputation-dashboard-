@@ -1,63 +1,83 @@
-🚀 LLM-Powered Company Reputation Dashboard
+# 🚀 LLM-Powered Company Reputation Dashboard
 
-An AI-driven dashboard that leverages Large Language Models (LLMs) to analyze and visualize company reputation from multi-source data in real time.
+An AI-driven dashboard that leverages **Large Language Models (LLMs)** to analyze and visualize company reputation from multi-source data in real time.
 
-📌 Overview
+---
+
+## 📌 Overview
 
 This project is designed to monitor and evaluate public perception of a company by analyzing textual data from multiple sources.
 
-It combines LLMs, sentiment analysis, and interactive visualization to provide meaningful insights into brand reputation and trends.
+It combines **LLMs, sentiment analysis, and interactive visualization** to provide meaningful insights into brand reputation and trends.
 
-✨ Key Features
-🧠 LLM-based Sentiment Analysis
-Tracks public perception, sentiment trends, and brand reputation in real time
-📊 Interactive Dashboard
-Clean and intuitive UI for exploring insights and visualizations
-⚡ Multi-source Data Processing
-Aggregates and analyzes data from multiple inputs
-🔐 Domain-Restricted Authentication
-Access limited to authorized organizational emails (e.g., @apple.com) for secure usage
-🚀 Scalable Backend Architecture
-Designed for efficient data processing and API integration
-🛠️ Tech Stack
+---
 
-Frontend:
+## ✨ Key Features
 
-Next.js
-TypeScript
-Tailwind CSS
+### 🧠 LLM-based Sentiment Analysis
+Tracks public perception, sentiment trends, and brand reputation in real time.
 
-Backend:
+### 📊 Interactive Dashboard
+Clean and intuitive UI for exploring insights and visualizations.
 
-Node.js / Express.js
-FastAPI (for ML services)
+### ⚡ Multi-source Data Processing
+Aggregates and analyzes data from multiple inputs.
 
-AI / ML:
+### 🔐 Domain-Restricted Authentication
+Access limited to authorized organizational emails (e.g., `@apple.com`) for secure usage.
 
-Large Language Models (LLMs)
-NLP Techniques (Sentiment Analysis)
-⚙️ System Workflow
-Data Sources → Data Processing → LLM Analysis → Sentiment Extraction → Visualization Dashboard
-📊 Capabilities
-Real-time sentiment tracking
-Trend analysis of public opinion
-Insight generation for decision-making
-Secure enterprise-level access control
-🚀 Getting Started
-1️⃣ Clone the repository
+### 🚀 Scalable Backend Architecture
+Designed for efficient data processing and API integration.
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- Next.js  
+- TypeScript  
+- Tailwind CSS  
+
+### Backend
+- Node.js / Express.js  
+- FastAPI (for ML services)  
+
+### AI / ML
+- Large Language Models (LLMs)  
+- NLP Techniques (Sentiment Analysis)  
+
+---
+
+## ⚙️ System Workflow
+
+---
+
+## 📊 Capabilities
+
+- Real-time sentiment tracking  
+- Trend analysis of public opinion  
+- Insight generation for decision-making  
+- Secure enterprise-level access control  
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the repository
+```bash
 git clone https://github.com/adhyasharma1806/LLM-powered-company-reputation-dashboard-
 cd LLM-powered-company-reputation-dashboard-
+
+
+
 2️⃣ Install dependencies
-
-Frontend:
-
+Frontend
 npm install
 npm run dev
-
-Backend (if using FastAPI):
-
+Backend (FastAPI)
 pip install -r requirements.txt
 uvicorn main:app --reload
+
 🔮 Future Enhancements
 🔹 Integration with live APIs (Twitter, News, Reddit)
 🔹 Advanced LLM models (GPT / BERT-based pipelines)
