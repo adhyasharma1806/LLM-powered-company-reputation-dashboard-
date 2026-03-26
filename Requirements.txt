@@ -1,0 +1,6 @@
+Libraries to install:
+streamlit
+pandas
+matplotlib
+seaborn
+google-generativeai
