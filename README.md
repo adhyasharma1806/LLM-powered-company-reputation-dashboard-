@@ -1,3 +1,4 @@
+# AI Chart Explainer using LLM and Data Visualization
 ## 🛠️ Tools and Technologies
 
 The AI Chart Explainer system is built using a combination of modern technologies across multiple layers including data processing, machine learning, backend development, frontend design, and deployment.
